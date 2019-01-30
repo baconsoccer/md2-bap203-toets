@@ -19,7 +19,9 @@
 
 @section('sidebar')
     <ul class="nav flex-column">
-        <li class="nav-item"><!-- Voeg hier de link toe naar de links pagina --></li>
+        <li class="nav-item">
+            <a  class="nav-link" href="/laravel-links">Laravel Links</a>
+        </li>
         <li class="nav-item"><!-- Voeg hier de link toe naar het formulier om een nieuwe link toe te voegen --></li>
     </ul>
 @endsection

@@ -20,4 +20,6 @@ Route::get('/help', function(){
     return view('help');
 })->name('help');
 
-// Voeg hier je eigen routes toe
+Route::get('/laravel-links', function(){
+    return view('laravel-links');
+})->name('laravel-links');
